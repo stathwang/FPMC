@@ -8,4 +8,4 @@ FPMC models both long-term **user preference** (matrix factorization) and short-
 
 It has been shown using multiple datasets that FOSSIL (Factorized Sequential Prediction with Item Similarity Models) performs better than FPMC, but the performance could vary depending on the nature of data generating process and the problem domain.
 
-Run the *preprocess.R* script on *movielens_trunc.csv* file and then the *fpmc.R* on the training set produced. I'm going to upload the python version of the algorithm as well as functions for evaluation metrics (i.e. precision, recall, AUC) soon, so stay tuned.
+Run the *preprocess.R* script on *movielens_trunc.csv* file and then the *fpmc.R* on the training set produced. I'm going to upload the python version of the algorithm as well as functions for evaluation metrics (i.e. AUC, precision, recall) soon, so stay tuned.
