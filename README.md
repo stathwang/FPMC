@@ -1,5 +1,5 @@
 # FPMC
-Factoried Personalized Markov Chains for Next Basket Recommendation
+Factoried Personalized Markov Chains for Next Basket Recommendation (Rendle et al. 2010)
 https://www.ismll.uni-hildesheim.de/pub/pdfs/RendleFreudenthaler2010-FPMC.pdf
 
 This repository contains my implementation of FPMC in R that predicts a user's next purchase based on the past purchase history. The algorithm combines a matrix factorization of user-item matrix to model user preferences and factorized (first order) Markov chains to consider sequential dynamics.
