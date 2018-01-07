@@ -4,7 +4,7 @@ Paper: [Factorized Personalized Markov Chains for Next Basket Recommendation](ht
 This repository contains my implementation of FPMC in R that predicts a user's next purchase based on the past purchase history. The algorithm combines a matrix factorization of user-item matrix to model user preferences and factorized (first order) Markov chains to consider sequential dynamics.
 
 ### Problem Formulation
-![FPMC](/img/fpmc.png)
+![FPMC](/img/fpmc_model.png)
 
 ### Main Ideas
 FPMC models both long-term **user preference** (matrix factorization) and short-term **sequential dynamics** (markov chains). It factorizes two matrices: the user-item matrix and the item-item transition matrix using a S-BPR (Sequential Bayesian Personalized Ranking) loss and sums up the similarity based on both. S-BPR uses a sigmoid function to characterize the probability that a true item is ranked higher than a false item given a user and the model parameters, assuming independence of users and time steps.
